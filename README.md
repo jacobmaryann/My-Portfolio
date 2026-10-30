@@ -1,19 +1,15 @@
 
-# Mary Jacob | Backend Developer
-
-Hi! Welcome to my world :)
+Hi! Welcome to my world.
 I'm **Mary Jacob**, a Backend Developer passionate about building reliable, secure, and well-structured applications.
-
-I enjoy turning ideas into functional solutions. I'm particularly interested in designing RESTful APIs, implementing authentication and authorization, managing databases, and integrating third-party services.
-
-I'm continuously learning, exploring new technologies, and challenging myself to build better backend solutions.
 
 ## About Me
 
-- Backend Developer focused on building RESTful APIs.
-- Interested in secure authentication, authorization, and database management.
-- Enjoy building practical solutions to real-world problems.
-- Currently open to full-time roles, contract positions, and project-based collaborations.
+I'm a Backend Developer who enjoys building practical solutions and bringing ideas to life through code. 
+My focus is on developing reliable and secure backend applications, with experience building RESTful APIs, implementing authentication and authorization, designing database structures, and integrating third-party services.
+I work primarily with Node.js, Express.js, and MongoDB, and I'm continually expanding my knowledge by exploring new technologies and working on projects that challenge me to grow as a developer. I value clean code, problem-solving, continuous learning, and building applications that are not only functional but also maintainable.
+
+I'm currently open to backend development opportunities, collaborations, and exciting projects where I can contribute, learn, and grow.
+
 
 ## Tech Stack
 
