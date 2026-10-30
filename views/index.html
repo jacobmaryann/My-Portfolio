@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mary Jacob | Backend Developer</title>
+
+    <!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            Mary Jacob<span></span>
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#workflow">Workflow</a></li>
+            </ul>
+        </nav>
+
+        <a href="mailto:maryann89492@gmail.com" class="nav-button">
+    Let's Talk
+</a>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+
+            <div class="availability">
+                <span class="status-dot"></span>
+                I am Available for opportunities
+            </div>
+
+            <h1>
+                Building systems that works
+                <span>Automating what comes next</span>
+            </h1>
+
+            <p class="hero-description">
+                Hello! from Mary Jacob, a Backend Developer
+                specializing in Node.js, JavaScript and MongoDB.
+                I build scalable APIs, automation solutions and reliable web applications tailored to your business needs.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-button">
+                    View My Projects
+                </a>
+
+                <a href="#contact" class="secondary-button">
+                    I am a DM away, Contact Me
+                </a>
+                
+            </div>
+
+            <div class="tech-stack">
+                <span>TECH STACK</span>
+                <p>Node.js · Express · MongoDB · JavaScript(ES module) . Cloudinary . Redis . Render</p>
+            </div>
+
+        </section>
+
+<!-- About  -->
+<section class="about-section" id="about">
+
+    <div class="about-content">
+
+        <div class="about-heading">
+            <span class="section-label">GET TO KNOW ME</span>
+            <h2>More than just <span>writing code.</span></h2>
+        </div>
+
+        <div class="about-image">
+    <img src="/images/MyPic.PNG" alt="Mary Jacob - Backend Developer">
+</div>
+
+        <div class="about-description">
+
+            <p>
+                I'm Mary Jacob, a backend developer passionate about
+                building reliable, secure, and well-structured applications.
+                I enjoy turning ideas into functional solutions using
+                Node.js, Express, and MongoDB.
+            </p>
+
+            <p>
+                Through my projects, I've gained experience in designing
+                RESTful APIs, implementing authentication and authorization,
+                managing databases, and integrating third-party services.
+            </p>
+
+            <p>
+                I'm continuously improving my skills, exploring new
+                technologies, and challenging myself to build better
+                backend solutions.
+            </p>
+
+            <p>
+                I'm currently open to backend development opportunities,
+                including full-time roles, contract positions, and
+                project-based collaborations.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- Skills -->
+<section class="skills-section" id="skills">
+
+    <div class="section-heading">
+        <span class="section-label">MY TECH STACK</span>
+        <h2>Technical <span>Skills</span></h2>
+        <p>Technologies and tools I use to build backend applications.</p>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill-tabs" role="tablist" aria-label="Technical skill categories">
+            <button class="skill-tab active"
+                    type="button"
+                    role="tab"
+                    aria-selected="true"
+                    data-skill-tab="backend">
+                Backend
+            </button>
+
+            <button class="skill-tab"
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                    data-skill-tab="database">
+                Database
+            </button>
+
+            <button class="skill-tab"
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                    data-skill-tab="security">
+                API & Security
+            </button>
+
+            <button class="skill-tab"
+                    type="button"
+                    role="tab"
+                    aria-selected="false"
+                    data-skill-tab="tools">
+                Tools & Deployment
+            </button>
+        </div>
+
+        <div class="skill-panel active"
+             data-skill-panel="backend"
+             role="tabpanel">
+            <h3>Backend Development</h3>
+            <p>Building server-side applications and application logic.</p>
+            <div class="skill-tags">
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>JavaScript(ES Modules)</span>
+            </div>
+        </div>
+
+        <div class="skill-panel"
+             data-skill-panel="database"
+             role="tabpanel"
+             hidden>
+            <h3>Database Management</h3>
+            <p>Working with data storage, modelling and caching.</p>
+            <div class="skill-tags">
+                <span>MongoDB</span>
+                <span>Mongoose</span>
+                <span>Redis</span>
+            </div>
+        </div>
+
+        <div class="skill-panel"
+             data-skill-panel="security"
+             role="tabpanel"
+             hidden>
+            <h3>API Development & Security</h3>
+            <p>Developing structured APIs with validation and access control.</p>
+            <div class="skill-tags">
+                <span>REST APIs</span>
+                <span>JWT Authentication</span>
+                <span>Joi Validation</span>
+                <span>Role-Based Access Control</span>
+                <span>CRUD Operations</span>
+            </div>
+        </div>
+
+        <div class="skill-panel"
+             data-skill-panel="tools"
+             role="tabpanel"
+             hidden>
+            <h3>Tools & Deployment</h3>
+            <p>Tools and services used throughout development and deployment.</p>
+            <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Postman</span>
+                <span>Cloudinary</span>
+                <span>Render</span>
+                <span>Vercel</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Backend Expertise -->
+<section class="expertise-section" id="expertise">
+
+    <div class="section-heading">
+        <span class="section-label">WHAT I DO</span>
+        <h2>Backend <span>Expertise</span></h2>
+        <p>Core areas of backend development I work with.</p>
+    </div>
+
+    <div class="expertise-grid">
+
+        <article class="expertise-card">
+            <span class="expertise-icon">01</span>
+            <h3>API Engineering</h3>
+            <p>
+                Designing RESTful APIs, implementing CRUD
+                operations, pagination, filtering and search.
+            </p>
+        </article>
+
+        <article class="expertise-card">
+            <span class="expertise-icon">02</span>
+            <h3>Database Management</h3>
+            <p>
+                Working with MongoDB, Mongoose, and data modelling.
+            </p>
+        </article>
+
+        <article class="expertise-card">
+            <span class="expertise-icon">03</span>
+            <h3>Authentication & Security</h3>
+            <p>
+                Implementing JWT authentication, protected
+                routes and role-based access control.
+            </p>
+        </article>
+
+        <article class="expertise-card">
+            <span class="expertise-icon">04</span>
+            <h3>Service Integration</h3>
+            <p>
+                Integrating third-party services such as
+                Cloudinary for file and media management.
+            </p>
+        </article>
+
+    </div>
+
+</section>
+
+<!-- DEVELOPMENT WORKFLOW -->
+<section class="workflow-section" id="workflow">
+
+    <div class="section-heading">
+        <span class="section-label">HOW I WORK</span>
+        <h2>My Development <span>Workflow</span></h2>
+        <p>A structured approach to how i build reliable backend applications.</p>
+    </div>
+
+    <div class="workflow-grid">
+
+        <div class="workflow-step">
+            <span>01</span>
+            <h3>Planning</h3>
+            <p>I Understand requirements, define features, and plan the API structure before development.</p>
+        </div>
+
+        <div class="workflow-step">
+            <span>02</span>
+            <h3>Database Design</h3>
+            <p>I Structure MongoDB collections, define relationships, and design efficient data models.</p>
+        </div>
+
+        <div class="workflow-step">
+            <span>03</span>
+            <h3>Development</h3>
+            <p>I start building REST APIs endpoints with Node.js and Express, implementing authentication and application logic.</p>
+        </div>
+
+        <div class="workflow-step">
+            <span>04</span>
+            <h3>Testing & Deployment</h3>
+            <p>Testing endpoints with Postman, handling errors, managing environment variables, and deploying with Render.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Project -->
+<section class="projects-section" id="projects">
+
+    <div class="section-heading">
+        <span class="section-label">MY WORK</span>
+        <h2>Projects I've <span>Built</span></h2>
+        <p>
+            Check out some of my backend projects where I turn
+            ideas into functional and reliable applications.
+        </p>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- LearnTrack -->
+        <article class="project-card">
+
+            <div class="project-top">
+                <span class="project-number">01</span>
+                <span class="project-type">Education API</span>
+            </div>
+
+            <h3>LearnTrack API</h3>
+
+            <p>
+                A learning management backend that allows
+                users to manage study goals and schedule
+                study sessions with secure authentication
+                and controlled status transitions.
+            </p>
+
+            <div class="project-tech">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+                <span>JWT</span>
+                <span>Joi</span>
+                <span>Render</span>
+            </div>
+
+            <div class="project-actions">
+    <a
+        href="https://github.com/jacobmaryann/LearnTrack-API"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-link"
+    >
+        GitHub ↗
+    </a>
+
+    <a
+        href="https://learntrack-api-ehiu.onrender.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-live"
+    >
+        Live API ↗
+    </a>
+</div>
+
+        </article>
+
+
+        <!-- AnnStream -->
+        <article class="project-card featured">
+
+            <div class="project-top">
+                <span class="project-number">02</span>
+                <span class="project-type">Job Platform API</span>
+            </div>
+
+            <h3>AnnStream API</h3>
+
+            <p>
+                A job application platform backend featuring
+                secure authentication, role-based access,
+                job management, application tracking, keyword search,
+                workModel filtering, pagination and
+                Cloudinary-powered document uploads.
+            </p>
+
+            <div class="project-tech">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+                <span>Cloudinary</span>
+                <span>JWT</span>
+                <span>Joi</span>
+                <span>Multer</span>
+                <span>Render</span>
+            </div>
+
+            <div class="project-actions">
+    <a
+        href="https://github.com/jacobmaryann/AnnStream-API"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-link"
+    >
+        GitHub ↗
+    </a>
+
+    <a
+        href="https://annstream-api.onrender.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-live"
+    >
+        Live API ↗
+    </a>
+</div>
+
+        </article>
+
+
+        <!-- Blog API -->
+        <article class="project-card">
+
+            <div class="project-top">
+                <span class="project-number">03</span>
+                <span class="project-type">Content Management API</span>
+            </div>
+
+            <h3>Blog API</h3>
+
+            <p>
+                A RESTful blogging backend supporting
+                article management, keyword search,
+                category filtering, pagination and
+                automated article view tracking.
+            </p>
+
+            <div class="project-tech">
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+                <span>Mongoose</span>
+                <span>Joi</span>
+            </div>
+
+            <div class="project-actions">
+    <a
+        href="https://github.com/jacobmaryann/Blog-API"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-link"
+    >
+        GitHub ↗
+    </a>
+
+    <a
+        href="https://blog-api-mary.onrender.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-live"
+    >
+        Live API ↗
+    </a>
+</div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+
+    <div class="contact-content">
+
+        <span class="section-label">GET IN TOUCH</span>
+
+        <h2>Let's build something <span>great together.</span></h2>
+
+        <p>
+            Have a project in mind, an opportunity, or just want
+            to connect? I'd love to hear from you.
+            Feel free to reach out!
+        </p>
+
+        <a href="mailto:maryann89492@gmail.com"
+           class="contact-button">
+            Send Me an Email ↗
+        </a>
+
+        <div class="contact-links">
+       
+<div class="contact-links">
+
+    <a href="https://github.com/jacobmaryann"
+       target="_blank"
+       rel="noopener noreferrer">
+        GitHub ↗
+    </a>
+
+    <a href="https://www.linkedin.com/in/maryjacob1"
+       target="_blank"
+       rel="noopener noreferrer">
+        LinkedIn ↗
+    </a>
+
+</div>
+
+
+    </div>
+
+</section>
+
+
+    </main>
+
+
+<footer class="footer">
+    <p>© 2026 Mary Jacob. All rights reserved.</p>
+    <p>Built with JavaScript, Node.js and express</p>
+</footer>
+
+
+    <script src="/js/script.js"></script>
+
+</body>
