@@ -69,7 +69,7 @@ I'm always interested in connecting with developers, collaborating on projects, 
 
 - **GitHub:** [jacobmaryann](https://github.com/jacobmaryann)
 - **Email:** maryann89492@gmail.com
-- **Portfolio:** 
+- **Portfolio:** https://my-portfolio-psi-two-92.vercel.app
 
 ---
 
