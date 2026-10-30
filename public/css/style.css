@@ -472,6 +472,29 @@ a {
 }
 
 
+/* Workflow card hover effect */
+.workflow-step {
+    transition: transform 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.workflow-step:hover {
+    transform: translateY(-5px);
+    border-color: var(--pink);
+    box-shadow: 0 8px 20px rgba(255, 79, 163, 0.15);
+}
+
+/* Mobile touch effect */
+@media (hover: none) and (pointer: coarse) {
+    .workflow-step:active {
+        transform: translateY(-3px);
+        border-color: var(--pink);
+        box-shadow: 0 6px 15px rgba(255, 79, 163, 0.12);
+    }
+}
+
+
 /* PROJECTS */
 
 .projects-section {
@@ -678,10 +701,12 @@ a {
         font-size: 11px;
     }
 
-    .nav-button {
-        display: none;
-    }
-
+   .nav-button {
+    display: inline-flex;
+    font-size: 11px;
+    padding: 8px 12px;
+    white-space: nowrap;
+}
     .hero {
         padding: 65px 18px;
     }
